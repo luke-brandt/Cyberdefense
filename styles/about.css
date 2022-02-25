@@ -1,0 +1,34 @@
+p{
+    font-size: 20px;
+}
+#ITDepartment_sec{
+    padding: 15px;
+    border: 1px solid black;
+}
+#ITDepartment_sec img{
+    height: 100px;
+}
+
+.staff_label h2{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.staff_label p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+@media only screen and (min-device-width: 1600px){
+    #ITDepartment_sec{
+        padding: 25px;
+    }
+    #ITDepartment_sec img{
+        height: 250px;
+    }
+    .staff_label h2{
+        font-size: 25px;
+    }
+    .staff_label{
+        margin-left: 50px;
+    }
+}

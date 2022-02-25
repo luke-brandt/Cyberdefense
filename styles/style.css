@@ -1,0 +1,202 @@
+:root {
+--back-color: rgb(13,84,92);
+--back-color2: #183c4c;
+--accent-light: #2cb83f
+}
+
+
+/*-----------------------------------------------------*/
+body{
+    margin: 0;
+}
+.header{
+  padding: 15px 0px;
+  background-color: var(--back-color);
+  font-size: 20px;
+  color: white;
+}
+/* styles for top header and top navigation */
+#branding{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#school-links{
+     display: none;
+}
+#branding a{
+    color: white;
+    text-decoration: none;
+}
+#branding a:hover{
+    text-decoration: underline;
+}
+#branding ul{
+    list-style-type:none;
+    margin-right: 10px;
+}
+
+.brand-seperator{
+    margin: 0;
+    font-size: 7px;
+    padding: 0px;
+    background: rgb(126,126,126);
+    background: linear-gradient(0deg, rgba(126,126,126,1) 0%, rgba(255,255,255,1) 53%);
+    border: 1.5px solid white;
+}
+.navbar-custom{
+    background-color: var(--back-color2); 
+}
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.navbar-custom a{
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.navbar-custom a:hover{
+    transition: .75s;
+    color: var(--back-color2);
+    background-color: white;
+}
+.navigation-links{
+    background-color: var(--back-color2);
+}
+/* .navigation-links ul{
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.navigation-links li{
+    padding: 10px 50px;
+    font-size: 20px;
+    color: white;
+    list-style-type:none;
+    background-color: var(--back-color2);
+    display: block;    
+}
+
+.navigation-links a{
+    color: white;
+    text-decoration: none;
+}
+.navigation-links li:hover{
+    transition: .5s;
+    background-color: white;
+}
+.navigation-links a:hover{
+    color: var(--back-color2);
+} */
+
+#page_header{
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(13,84,92);
+}
+
+#table_header{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    background-color:rgb(13,84,92);
+}
+
+#table_content {
+    font-family: 'Mulish', sans-serif;
+    color: #183c4c;
+    background-color: rgb(237,237,237);
+}
+#table_content_active{
+    background-color: var(--accent-light);
+}
+
+#table_content a:hover{
+    color: #183c4c;
+    text-decoration: underline;
+}
+
+/* sidebar navigation styles*/
+#sidebar_nav a{
+    color:var(--back-color2)
+}
+#sidebar_nav thead a{
+    color: white;
+}
+
+#selected-nav{
+    background-color: var(--back-color2);
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: var(--accent-light);
+}
+
+
+form button{
+    color: white;
+    background-color: var(--back-color);
+}
+
+.bordertest{
+    border: 2px solid red;
+}
+
+
+/* footer styles */
+footer{
+background-color: var(--back-color);
+color: white;
+}
+footer p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+/* Laptop style size */
+@media only screen and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1){
+
+    .navigation-links a{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+
+    #branding{
+        margin:0px;
+    }
+    #school-links{
+        align-self: flex-end;
+        display: flex;
+       flex-direction: row;
+   }
+  
+}
+
+
+@media only screen and (min-device-width: 1600px){
+    #school-links{
+        align-self: flex-end;
+        display: flex;
+       flex-direction: row;
+       font-size: 20px;
+   }
+   
+}

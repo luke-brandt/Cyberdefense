@@ -1,0 +1,58 @@
+#def-title{
+    font-size: 75px;
+}
+p{
+    font-size: 20px;
+}
+#info-resources{
+    font-size: 20px;
+    border: 1px solid var(--back-color2);
+}
+#info-resources a{
+    color:purple;
+}
+#national-cyber li{
+    list-style: none;
+    padding: 20px;
+}
+#current-threats-feed{
+    border: 1px solid var(--back-color2);
+    font-size: 30px;
+}
+#current-threats-feed p{
+    font-size:15px;
+    color: rgb(54, 54, 54);
+}
+#info-resources{
+    padding: 20px;
+}
+#info-resources a{
+    font-size: 10px;
+}
+
+/* Laptop style size */
+@media only screen and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1){
+
+   
+
+  
+}
+
+
+
+/* desktop styles*/
+@media only screen and (min-device-width: 1600px){
+    /*--- main page style-- */
+    #info-resources a{
+        font-size: 25px;
+    }
+    #info-resources li{
+        margin-bottom: 25px;
+    }
+
+
+
+
+}

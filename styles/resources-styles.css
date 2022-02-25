@@ -1,0 +1,10 @@
+#resources-list li{
+    font-size: 20px;
+}
+#resources-list p{
+    font-size: 15px;
+}
+
+#resources-list a{
+    color: purple;
+}
