@@ -8,3 +8,38 @@
 #resources-list a{
     color: purple;
 }
+
+.cisa_information{
+    margin-top: 50px;
+}
+.cisa_information a{
+    color: purple;
+}
+.cisa_information p, blockquote{
+    text-indent: 50px;
+    font-size: 20px;
+}
+.cisa_information iframe{
+    display: none;
+}
+
+
+
+@media only screen and (min-device-width: 1600px){
+    .cisa_information iframe{
+        display: block;
+        width:1000px;
+        height: 1000px;
+    }
+
+    #cisa_information_pdf{
+        display: none;
+    }
+    .cisa_information_catalog{
+        height: 600px;
+        padding: 20px;
+    }
+    .cisa_information_catalog{
+        border: 1px solid black;
+    }
+}

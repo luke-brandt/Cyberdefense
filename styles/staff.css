@@ -20,6 +20,7 @@ and (-webkit-min-device-pixel-ratio: 1){
         margin-left: 25px;
     }
     
+    
     .staff_label h2, p{
         font-size: 15px;
     }
@@ -28,6 +29,9 @@ and (-webkit-min-device-pixel-ratio: 1){
 
 @media only screen and (min-device-width: 1600px){
     
+    .staff_label{
+        width:300px;
+    }
     #staff_page img{
         height: 200px;
     }

@@ -8,6 +8,7 @@
 /*-----------------------------------------------------*/
 body{
     margin: 0;
+    
 }
 .header{
   padding: 15px 0px;
@@ -97,7 +98,7 @@ body{
     color: var(--back-color2);
 } */
 
-#page_header{
+.main_content{
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
     font-size: 50px;
