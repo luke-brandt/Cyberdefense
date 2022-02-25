@@ -98,13 +98,13 @@ body{
     color: var(--back-color2);
 } */
 
+/* styles the content for the main information*/
 .main_content{
     font-family: 'Mulish', sans-serif;
     font-weight: bold;
     font-size: 50px;
     color: rgb(13,84,92);
 }
-
 #table_header{
     font-family: 'Mulish', sans-serif;
     color: white;

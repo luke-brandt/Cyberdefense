@@ -30,16 +30,17 @@
         display: block;
         width:1000px;
         height: 1000px;
+        margin-left: 250px;
     }
 
     #cisa_information_pdf{
         display: none;
     }
     .cisa_information_catalog{
-        height: 600px;
         padding: 20px;
+        margin: 50px;
     }
     .cisa_information_catalog{
-        border: 1px solid black;
+        border: 3px solid var(--back-color2);
     }
 }

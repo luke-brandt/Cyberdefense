@@ -6,7 +6,6 @@ p{
 }
 #info-resources{
     font-size: 20px;
-    border: 1px solid var(--back-color2);
 }
 #info-resources a{
     color:purple;
@@ -16,7 +15,7 @@ p{
     padding: 20px;
 }
 #current-threats-feed{
-    border: 1px solid var(--back-color2);
+    border: 1px solid var(--accent-light);
     font-size: 30px;
 }
 #current-threats-feed p{
@@ -29,7 +28,13 @@ p{
 #info-resources a{
     font-size: 10px;
 }
+#small_name{
+    display: inline;
+}
 
+#large_name{
+    display: none;
+}
 /* Laptop style size */
 @media only screen and (min-device-width: 1200px) 
 and (max-device-width: 1600px) 
@@ -52,7 +57,23 @@ and (-webkit-min-device-pixel-ratio: 1){
         margin-bottom: 25px;
     }
 
+    .name_card{
+        padding: 20px;
+        background-color: var(--back-color);
+        margin-right: 50px;
+    }
+    .name_card h1{
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 120px;
+        text-shadow: 5px 5px var(--back-color2);
+    }
+    #small_name{
+        display: none;
+    }
 
-
-
+    #large_name{
+        display: block;
+    }
 }

@@ -8,6 +8,10 @@ p{
 .staff_display{
     border: 2px solid black;
 }
+#ITDepartment_sec{
+    padding: 15px;
+    border: 1px solid black;
+}
 
 
 /* Laptop style size */
@@ -35,6 +39,6 @@ and (-webkit-min-device-pixel-ratio: 1){
     #staff_page img{
         height: 200px;
     }
-    
+       
     
 }
